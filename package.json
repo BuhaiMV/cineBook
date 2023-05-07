@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "cypress": "^12.11.0"
+  },
+  "scripts": {
+    "open": "cypress open",
+    "runTestHeadlessMod": "cypress run",
+    "runTestInChromeAndHeadedMod": "cypress run --browser=chrome --headed"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.7.6"
+  }
+}
